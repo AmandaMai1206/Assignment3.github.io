@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/AmandaMai1206/Assignment3.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+  
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+        <div class="container-fluid">
+        <div class="navbar-brand"><h1>Food, LLC</h1></div>
 
-### Markdown
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <div class="collapse navbar-collapse g-col-12 " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-0 mb-lg-0 d-block d-sm-none "> <!--.d-block .d-sm-none Only visible on xs-->
+            <li class="nav-item border border-secondary">
+              <a class="nav-link"  aria-current="page">Chicken</a>
+            </li>
+            <li class="nav-item border border-secondary">
+              <a class="nav-link">Beef</a>
+            </li>
+            <li class="nav-item border border-secondary">
+              <a class="nav-link">Sushi</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+<div class="container-fluid">
+  <div class="text-center"><h1>Our Menu</h1></div>
+  
+  <div class="row">
+    <div class=" w-90">
+      <div class="card bg-secondary">
+        <div class="card-body">
+          <h5 class="card-title text-center" ip="chicken">Chicken</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet ad eaque voluptas cum accusantium sint repellat quia sed necessitatibus sit sunt, iste corrupti aliquam eum. Dolore assumenda ducimus fuga!
+          Magni ratione saepe et doloremque facilis vel repellat minus dicta iusto perspiciatis. Unde necessitatibus doloribus magni non voluptates accusantium ea et ipsa praesentium soluta alias eius incidunt velit, nemo aperiam?</p>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center" ip="beef">Beef</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet ad eaque voluptas cum accusantium sint repellat quia sed necessitatibus sit sunt, iste corrupti aliquam eum. Dolore assumenda ducimus fuga!
+          Magni ratione saepe et doloremque facilis vel repellat minus dicta iusto perspiciatis. Unde necessitatibus doloribus magni non voluptates accusantium ea et ipsa praesentium soluta alias eius incidunt velit, nemo aperiam?</p>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center" ip="sushi">Sushi</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet ad eaque voluptas cum accusantium sint repellat quia sed necessitatibus sit sunt, iste corrupti aliquam eum. Dolore assumenda ducimus fuga!
+          Magni ratione saepe et doloremque facilis vel repellat minus dicta iusto perspiciatis. Unde necessitatibus doloribus magni non voluptates accusantium ea et ipsa praesentium soluta alias eius incidunt velit, nemo aperiam?</p>
+        </div>
+      </div>
+    </div>
+  
+</div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmandaMai1206/Assignment3.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <script src="js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
