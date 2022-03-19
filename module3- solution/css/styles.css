@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+/** HEADER **/
+div.g-col-12{
+    text-align: center;
+    background-color: #fff;
+    margin: 0 -16px 0 -16px;
+}
+
+div.text-center{
+    margin: 20px 0 20px  0 ;
+}
+
+div.row{
+    margin-bottom: 50px;
+}
